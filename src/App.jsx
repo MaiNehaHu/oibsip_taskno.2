@@ -27,12 +27,12 @@ const App = () => {
     return (
       <h1>
         <img src={Doggy} alt="Sad dog image" />
-        Please take some efforts to open Laptop or set in Desktop mode in
-        Browser and Refresh. You can not view Portfolio on `${details}`.
+        Please take some efforts to Set Desktop mode in
+        Browser and Refresh {`{or}`} open Laptop.
       </h1>
     );
   } else {
-    console.log(` Happy view!! You are using Desktop ${details}.`);
+    console.log(` Happy view!! You are using Desktop`);
 
     return (
       <div id="App">

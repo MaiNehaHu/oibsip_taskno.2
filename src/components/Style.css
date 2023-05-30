@@ -178,6 +178,7 @@
 .wait-page {
   background-color: #3220f0;
   height: 500vh;
+  height: 500dvh;
 }
 .big-page-education {
   background-color: #ff09ca;
@@ -187,7 +188,8 @@
 }
 .projects-big-page {
   background-color: #6565ff;
-  height: 180vh
+  height: 180vh;
+  height: 180dvh;
 }
 .contact-big-page {
   background: black;
@@ -197,6 +199,8 @@
 /*=========================Home=========================*/
 .home-container {
   height: 100vh;
+  height: 100dvh;
+  padding: 0 5% 0;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -453,7 +457,8 @@ label:nth-child(2) {
 
 /*===================About===================*/
 .about-container {
-  margin: 350px 0px 250px;
+  margin: 50vh 0px 50vh;
+  margin: 50dvh 0px 50dvh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -462,7 +467,7 @@ label:nth-child(2) {
 .about-content {
   width: 100%;
   overflow-x: hidden;
-  margin: 0px 0px 0px;
+  margin: 100px 0px 0px;
   position: absolute;
   top: 0px;
 }
@@ -482,7 +487,8 @@ label:nth-child(2) {
 }
 .odd-st-line,
 .even-st-line {
-  height: 720px;
+  height: 100vh;
+  height: 100dvh;
   width: 10px;
   z-index: 9;
 }
@@ -493,25 +499,21 @@ label:nth-child(2) {
   background: linear-gradient(to bottom, #ab1bff, blue);
 }
 .column-block {
-  width: 98.9vw;
+  width: 100%;
   height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: row;
 }
-.content {
+.content,.image {
   width: 50%;
-  height: 100%;
+  height: 100vh;
+  height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.image {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .image > img {
   width: 80%;
   height: 100%;
@@ -520,6 +522,7 @@ label:nth-child(2) {
 }
 #college-website-img {
   cursor: pointer;
+  width: 100%;
 }
 .odd-block {
   position: relative;
@@ -539,7 +542,9 @@ label:nth-child(2) {
   display: flex;
   align-items: center;
 }
-
+.content-info >.lines{
+  padding: 0 50px 0;
+}
 /*-----------------About------------------------------------*/
 
 /*=======================Projects================-*/
@@ -669,6 +674,7 @@ label:nth-child(2) {
 /*-------------------Contact------------------------------*/
 #contact {
   height: 100vh;
+  height: 100dvh;
   width: 100%;
   display: flex;
   flex-direction: row;
