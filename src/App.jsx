@@ -36,7 +36,7 @@ const App = () => {
 
     return (
       <div id="App">
-        <BrowserRouter basename="Portfolio">
+        <BrowserRouter basename="oibsip_taskno.2">
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route
