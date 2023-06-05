@@ -24,18 +24,37 @@ const Contact = () => {
       <div className="contact-details">
         <img src={Neha} id="neha-img" alt="Neha image" />
         <div className="links">
+          <div className="email">
+            <a target="blank" href="mailto:neha207y1a0423@mlritm.ac.in">
+              <i className="fa fa-envelope"></i>
+            </a>
+          </div>
           <div className="linkedin">
             <a
+              target="blank"
               href="https://www.linkedin.com/in/nehakumari0102/"
-              target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fa fa-linkedin-square"></i>
             </a>
           </div>
-          <div className="email">
-            <a href="mailto:neha207y1a0423@mlritm.ac.in">
-              <i className="fa fa-envelope"></i>
+          <div className="github">
+            <a target="blank" href="https://github.com/MaiNehaHu">
+              <i className="fa fa-github"></i>
+            </a>
+          </div>
+          <div className="twitter">
+            <a target="blank" href="https://twitter.com/NehaKumari0102">
+              <i className="fa fa-twitter-square"></i>
+            </a>
+          </div>
+
+          <div className="youtube">
+            <a
+              target="blank"
+              href="https://www.youtube.com/channel/UCbuUfdie7UFoSpawU2s_xbA"
+            >
+              <i className="fa fa-youtube-play"></i>
             </a>
           </div>
         </div>

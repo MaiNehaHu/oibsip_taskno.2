@@ -102,7 +102,7 @@ const About = () => {
             <div className="content-info odd-block first-block">
               <p className="lines">
                 {" "}
-                I was born, raised, and educated in Bihar,India until I finished
+                I was born, raised, and educated in Bihar, India until I finished
                 schooling.{" "}
               </p>
             </div>
@@ -119,7 +119,7 @@ const About = () => {
             <div className="content-info even-block">
               <p className="lines">
                 {" "}
-                I moved to Hyderabad,India for further studies.
+                I moved to Hyderabad, India for further studies.
               </p>
             </div>
           </div>

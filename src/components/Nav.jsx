@@ -8,11 +8,8 @@ const Nav = () => {
   return (
     <div className="navigation-bar">
       <div className="github">
-        <a href="https://github.com/MaiNehaHu" target="blank">
-          <img
-            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-            alt="Github logo"
-          />
+        <a target="blank" href="https://github.com/MaiNehaHu">
+          <i className="fa fa-github"></i>
         </a>
       </div>
 

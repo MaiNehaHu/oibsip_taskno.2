@@ -48,7 +48,6 @@ const Projects = () => {
   //------------------Start---------------------------
   return (
     <div>
-      <Nav />
       <div className="projects-container">
       <p>Hover and hold to get live link of the project</p>
         <div className="filter-buttons">
