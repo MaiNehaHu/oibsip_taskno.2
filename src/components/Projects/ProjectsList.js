@@ -6,6 +6,7 @@ import img4 from "../../images/TodoApp.png";
 import img5 from "../../images/Carousel.png";
 import img6 from "../../images/SwipeCard.png";
 import img7 from "../../images/Clocks.png";
+import img8 from '../../images/Drag-and-Drop-Sortable-List.png'
 
 
 export default [
@@ -72,5 +73,13 @@ export default [
     href: "https://mainehahu.github.io/Clocks/",
     tag: "Vanilla",
     src: img7,
+  },
+  {
+    //8
+    index: 8,
+    name: "Drag and Drop Sortable List",
+    href: "https://mainehahu.github.io/Drag-and-Drop-Sortable-List/",
+    tag: "Vanilla",
+    src: img8,
   },
 ];
