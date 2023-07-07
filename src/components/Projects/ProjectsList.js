@@ -30,7 +30,7 @@ export default [
     //2
     index: 2,
     name: "NETFLIX clone with Mood feature",
-    href: "https://mainehahu.github.io/One-Alarm/",
+    href: "https://mainehahu.github.io/NETFLIX-Clone-with-Mood-Feature/",
     tag: "Vanilla",
     src: img9,
   },
