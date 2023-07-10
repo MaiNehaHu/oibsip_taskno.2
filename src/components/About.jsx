@@ -38,7 +38,7 @@ const About = () => {
           opacity: 1,
           x: 0,
           skewX: 0,
-          delay: 0.2,
+          delay: 1.7,
           duration: 2,
         }
       );

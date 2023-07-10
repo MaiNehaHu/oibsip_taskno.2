@@ -153,7 +153,6 @@
   background: #ffc042;
 }
 
-.big-page,
 .big-page-education,
 .contact-big-page,
 .projects-big-page,
@@ -164,7 +163,21 @@
   position: absolute;
   top: 0;
   right: 0;
-  animation: slide 2s ease-in-out forwards;
+}
+.big-page-education,
+.contact-big-page,
+.projects-big-page,
+.wait-page {
+  animation: slide 2s ease-in-out 1.5s forwards;
+}
+.big-page {
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: slide 2s ease-in-out 3s forwards;
 }
 
 @keyframes slide {
@@ -237,7 +250,7 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 
-  animation: animate 2s ease-in-out forwards;
+  animation: animate 2s ease-in-out 3s forwards;
 }
 @keyframes animate {
   0% {
