@@ -229,7 +229,7 @@
 .wait-page {
   z-index: 99;
   width: 100%;
-  height: 100%;
+
   position: absolute;
   top: 0;
   right: 0;
@@ -243,7 +243,7 @@
 .big-page {
   z-index: 99;
   width: 100%;
-  height: 100%;
+
   position: absolute;
   top: 0;
   right: 0;
@@ -258,16 +258,22 @@
     width: 0%;
   }
 }
+
+/**Front loading sliders*/
+.big-page {
+  background-color: #9c32ff;
+  height: 105vh;
+  height: 105dvh;
+}
+.big-page-education {
+  background-color: #ff09ca;
+  height: 105vh;
+  height: 105dvh;
+}
 .wait-page {
   background-color: #3220f0;
   height: 500vh;
   height: 500dvh;
-}
-.big-page-education {
-  background-color: #ff09ca;
-}
-.big-page {
-  background-color: #9c32ff;
 }
 .projects-big-page {
   background-color: #6565ff;
@@ -276,6 +282,8 @@
 }
 .contact-big-page {
   background: black;
+  height: 100vh;
+  height: 100dvh;
 }
 /*----------------------------some stuff------------------------------*/
 

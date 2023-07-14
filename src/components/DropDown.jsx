@@ -6,6 +6,12 @@ const DropDown = () => {
     <div>
       <ul className="drop-down">
         <li>
+          <Link to="/">
+            {" "}
+            <p>Home</p>
+          </Link>
+        </li>
+        <li>
           <Link to="/About">
             {" "}
             <p>About</p>

@@ -24,6 +24,7 @@ const Contact = () => {
       <div className="contact-details">
         <img src={Neha} id="neha-img" alt="Neha image" />
         <div className="links">
+
           <div className="email">
             <a target="blank" href="mailto:neha207y1a0423@mlritm.ac.in">
               <i className="fa fa-envelope"></i>
@@ -35,15 +36,15 @@ const Contact = () => {
               <i className="fa fa-github"></i>
             </a>
           </div>
+
           <div className="linkedin">
             <a
               target="blank"
-              href="https://www.linkedin.com/in/nehakumari0102/"
-              rel="noopener noreferrer"
-            >
+              href="https://www.linkedin.com/in/nehakumari0102/">
               <i className="fa fa-linkedin-square"></i>
             </a>
           </div>
+          
         </div>
       </div>
 
