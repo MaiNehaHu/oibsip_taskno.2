@@ -8,9 +8,9 @@ const Nav = () => {
   return (
     <div className="navigation-bar">
       <div className="github">
-        <a target="blank" href="https://github.com/MaiNehaHu">
-          <i className="fa fa-github"></i>
-        </a>
+        <i className="fa fa-github">
+          <a target="blank" href="https://github.com/MaiNehaHu"></a>
+        </i>
       </div>
 
       <div className="navigations">

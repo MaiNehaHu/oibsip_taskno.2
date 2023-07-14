@@ -35,17 +35,16 @@ const Contact = () => {
               <i className="fa fa-github"></i>
             </a>
           </div>
+          <div className="linkedin">
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/nehakumari0102/"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-linkedin-square"></i>
+            </a>
+          </div>
         </div>
-      </div>
-      
-      <div className="linkedin">
-        <a
-          target="blank"
-          href="https://www.linkedin.com/in/nehakumari0102/"
-          rel="noopener noreferrer"
-        >
-          <i className="fa fa-linkedin-square"></i>
-        </a>
       </div>
 
       <div className="contact-big-page"></div>

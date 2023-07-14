@@ -11,7 +11,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-
 const About = () => {
   //custom cursor
   const [cursorX, setCursorX] = useState();
@@ -30,7 +29,7 @@ const About = () => {
       const first_block = self.selector(".first-block");
       const odd_boxes = self.selector(".odd-block");
       const even_boxes = self.selector(".even-block");
-      
+
       gsap.fromTo(
         first_block,
         { x: -400, opacity: 0, skewX: 30 },
@@ -55,7 +54,7 @@ const About = () => {
               start: "top 80%",
               end: "top 20%",
               scrub: true,
-              markers:false,
+              markers: false,
             },
           }
         );
@@ -78,8 +77,7 @@ const About = () => {
         );
       });
 
-//===============last========================//
-
+      //===============last========================//
     }, main); // <- Scope!
     return () => ctx.revert(); // <- Cleanup!
   }, []);
@@ -96,14 +94,14 @@ const About = () => {
       <div className="even-st-line"></div>
       <div className="odd-circle"></div>
 
-      <div className="about-content" ref={main}>  
+      <div className="about-content" ref={main}>
         <div className="column-block">
           <div className="content">
             <div className="content-info odd-block first-block">
               <p className="lines">
                 {" "}
-                I was born, raised, and educated in Bihar, India until I finished
-                schooling.{" "}
+                I was born, raised, and educated in Bihar, India until I
+                finished schooling.{" "}
               </p>
             </div>
           </div>
@@ -150,8 +148,7 @@ const About = () => {
           <div className="content">
             <div className="content-info even-block">
               <p className="lines">
-                My first website is a redesigned version of the original one of
-                the college I am attending.{" "}
+                As a first project. I revamped our university's website.
               </p>
             </div>
           </div>
