@@ -262,8 +262,8 @@
 /**Front loading sliders*/
 .big-page {
   background-color: #9c32ff;
-  height: 105vh;
-  height: 105dvh;
+  height: 100vh;
+  height: 100dvh;
 }
 .big-page-education {
   background-color: #ff09ca;
