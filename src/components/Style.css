@@ -110,12 +110,51 @@
   transition: 0s;
   transform: translate(0, 5%);
 }
+/*Drop Down*/
+.drop-down {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+
+  padding: 2% 4%;
+  position: absolute;
+  right: 10px;
+  top: 70px;
+
+  background-color: #b4c7ff;
+  border-radius: 1rem;
+  gap: 20px;
+}
+#Show-more {
+  display: none;
+  border: 0px;
+  
+  padding: 20px 20px 20px;
+  background-color: #ffffff00;
+}
+#Show-more:hover {
+  color: #9500ff;
+}
+#Show-more,
+.drop-down * {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: "Righteous", cursive;
+  color: black;
+}
+.drop-down *:hover {
+  color: #9500ff;
+}
+
 @media screen and (max-width: 900px) {
   .navigation-bar > .navigations > a {
     display: none;
   }
   .navigations {
     margin: 15px 20px 20px;
+  }
+  #Show-more {
+    display: flex;
   }
 }
 

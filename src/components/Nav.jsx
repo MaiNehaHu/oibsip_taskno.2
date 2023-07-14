@@ -1,10 +1,13 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+import React, { useState } from "react";
 import "./Style.css";
 import resume from "../images/Resume.pdf";
 import { Link } from "react-router-dom";
+import DropDown from "./DropDown";
 
 const Nav = () => {
+  const [openDropDown, setDropDown] = useState(false);
+
   return (
     <div className="navigation-bar">
       <div className="github">
@@ -43,6 +46,11 @@ const Nav = () => {
           <a href={resume} download={true}>
             Resume
           </a>
+        </button>
+
+        <button id="Show-more" onClick={() => setDropDown((prev => !prev))}>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          {openDropDown && <DropDown />}
         </button>
       </div>
     </div>
