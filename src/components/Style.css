@@ -289,9 +289,10 @@
 
 /*=========================Home=========================*/
 .home-container {
-  padding: 0 5% 0;
+  padding: 0 5%;
   width: 100%;
-  height: 88vh;
+  height: 80vh;
+  height: 80dvh;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap-reverse;
@@ -402,6 +403,7 @@ input {
 }
 .education-details {
   height: 86vh;
+  height: 86dvh;
   min-width: 100%;
   padding: 0 10% 0;
   display: flex;
