@@ -49,7 +49,7 @@ const Nav = () => {
         </button>
 
         <button id="Show-more" onClick={() => setDropDown((prev => !prev))}>
-          <i class="fa fa-bars" aria-hidden="true"></i>
+          <i className="fa fa-bars" aria-hidden="true"></i>
           {openDropDown && <DropDown />}
         </button>
       </div>

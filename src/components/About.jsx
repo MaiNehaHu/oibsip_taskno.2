@@ -159,7 +159,7 @@ const About = () => {
               <p className="lines">
                 You can see my projects{" "}
                 <Link to="/Projects">
-                  <p>here</p>
+                  <span>here</span>
                 </Link>
               </p>
             </div>
