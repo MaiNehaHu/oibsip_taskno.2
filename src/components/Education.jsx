@@ -6,7 +6,7 @@ function Education() {
     <div className="education-details">
       <div className="edu-container">
         <input type="radio" name="slider" id="tab-1" />
-        <input type="radio" name="slider" id="tab-2" checked />
+        <input type="radio" name="slider" id="tab-2" defaultChecked />
         <input type="radio" name="slider" id="tab-3" />
         <div className="labels">
           <label htmlFor="tab-1" className="tab-1">

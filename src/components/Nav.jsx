@@ -10,10 +10,11 @@ const Nav = () => {
 
   return (
     <div className="navigation-bar">
-      <div className="github">
-        <i className="fa fa-github">
-          <a target="blank" href="https://github.com/MaiNehaHu"></a>
-        </i>
+      <div className="home">
+        <Link to="/">
+          {" "}
+          <i className="fa fa-github"></i>
+        </Link>
       </div>
 
       <div className="navigations">
@@ -48,7 +49,7 @@ const Nav = () => {
           </a>
         </button>
 
-        <button id="Show-more" onClick={() => setDropDown((prev => !prev))}>
+        <button id="Show-more" onClick={() => setDropDown((prev) => !prev)}>
           <i className="fa fa-bars" aria-hidden="true"></i>
           {openDropDown && <DropDown />}
         </button>

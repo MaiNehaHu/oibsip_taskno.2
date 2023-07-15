@@ -12,7 +12,7 @@
   z-index: 10;
   backdrop-filter: blur(20px);
 }
-.navigation-bar .github > i {
+.navigation-bar > .home > a > .fa-github {
   color: black;
   font-size: 55px;
   pointer-events: none;
@@ -116,19 +116,19 @@
   flex-direction: column;
   list-style: none;
 
-  padding: 2% 4%;
+  padding: 2% 7%;
   position: absolute;
   right: 10px;
   top: 70px;
 
   background-color: #b4c7ff;
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   gap: 20px;
 }
 #Show-more {
   display: none;
   border: 0px;
-  
+
   padding: 20px 20px 20px;
   background-color: #ffffff00;
 }
@@ -182,110 +182,6 @@
   }
 }
 /*----------------------------------Nav-----------------------------*/
-
-/*==========================some stuff==========================*/
-.cursor,
-.contact-cursor {
-  z-index: 999;
-  position: fixed;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  pointer-events: none;
-}
-.cursor {
-  box-shadow: 0 0 20px #c95dff, 0 0 60px #c95dff, 0 0 100px #c95dff;
-}
-.contact-cursor {
-  box-shadow: 0 0 20px #ffc042, 0 0 60px #ffc042, 0 0 100px #ffc042;
-}
-.cursor::before,
-.contact-cursor::before {
-  content: "";
-  position: absolute;
-  top: -30px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  opacity: 0.2;
-  transform: translate(-30%, 30%);
-}
-.cursor {
-  background: #9500ff;
-}
-.cursor::before {
-  background: #c95dff;
-}
-.contact-cursor {
-  background-color: orange;
-}
-.contact-cursor::before {
-  background: #ffc042;
-}
-
-.big-page-education,
-.contact-big-page,
-.projects-big-page,
-.wait-page {
-  z-index: 99;
-  width: 100%;
-
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.big-page-education,
-.contact-big-page,
-.projects-big-page,
-.wait-page {
-  animation: slide 2s ease-in-out 1.5s forwards;
-}
-.big-page {
-  z-index: 99;
-  width: 100%;
-
-  position: absolute;
-  top: 0;
-  right: 0;
-  animation: slide 2s ease-in-out 3s forwards;
-}
-
-@keyframes slide {
-  0% {
-    width: 100%;
-  }
-  100% {
-    width: 0%;
-  }
-}
-
-/**Front loading sliders*/
-.big-page {
-  background-color: #9c32ff;
-  height: 100vh;
-  height: 100dvh;
-}
-.big-page-education {
-  background-color: #ff09ca;
-  height: 100vh;
-  height: 100dvh;
-}
-.wait-page {
-  background-color: #3220f0;
-  height: 500vh;
-  height: 500dvh;
-}
-.projects-big-page {
-  background-color: #6565ff;
-  height: 230vh;
-  height: 230dvh;
-}
-.contact-big-page {
-  background: black;
-  height: 100vh;
-  height: 100dvh;
-}
-/*----------------------------some stuff------------------------------*/
 
 /*=========================Home=========================*/
 .home-container {
@@ -402,8 +298,8 @@ input {
   visibility: hidden;
 }
 .education-details {
-  height: 86vh;
-  height: 86dvh;
+  height: 80vh;
+  height: 80dvh;
   min-width: 100%;
   padding: 0 10% 0;
   display: flex;
@@ -624,7 +520,7 @@ label:nth-child(2) {
 .about-content {
   width: 100%;
   overflow-x: hidden;
-  margin: 50px 0px 0px;
+  margin: 80px 0px 0px;
   position: absolute;
   top: 0px;
 }
@@ -900,15 +796,18 @@ label:nth-child(2) {
     height: 110px;
     font-size: 1rem;
   }
+
+  .filter-buttons > * {
+    font-size: small;
+  }
 }
 /*------------------Projects--------------------------------*/
 
 /*===================Contact=================================*/
 
-/*-------------------Contact------------------------------*/
 #contact {
-  height: 88vh;
-  height: 88dvh;
+  height: 80vh;
+  height: 80dvh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -983,6 +882,113 @@ label:nth-child(2) {
     height: 300px;
   }
 }
+/*-------------------Contact------------------------------*/
+
+/*==========================some stuff==========================*/
+.cursor,
+.contact-cursor {
+  z-index: 100;
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.cursor {
+  box-shadow: 0 0 20px #c95dff, 0 0 60px #c95dff, 0 0 100px #c95dff;
+}
+.contact-cursor {
+  box-shadow: 0 0 20px #ffc042, 0 0 60px #ffc042, 0 0 100px #ffc042;
+}
+
+.cursor::before,
+.contact-cursor::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  opacity: 0.2;
+  transform: translate(-30%, 30%);
+}
+.cursor {
+  background: #9500ff;
+}
+.cursor::before {
+  background: #c95dff;
+}
+.contact-cursor {
+  background-color: orange;
+}
+.contact-cursor::before {
+  background: #ffc042;
+}
+
+.big-page-education,
+.contact-big-page,
+.projects-big-page,
+.wait-page {
+  z-index: 12;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.big-page-education,
+.contact-big-page,
+.projects-big-page,
+.wait-page {
+  animation: slide 2s ease-in-out 1.5s forwards;
+}
+.big-page {
+  z-index: 12;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: slide 2s ease-in-out 3s forwards;
+}
+
+@keyframes slide {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+/**Front loading sliders*/
+.big-page {
+  background-color: #9c32ff;
+  height: 100vh;
+  height: 100dvh;
+}
+.big-page-education {
+  background-color: #ff09ca;
+  height: 100vh;
+  height: 100dvh;
+}
+.wait-page {
+  background-color: #3220f0;
+  height: 500vh;
+  height: 500dvh;
+}
+.projects-big-page {
+  background-color: #6565ff;
+  height: 230vh;
+  height: 230dvh;
+}
+.contact-big-page {
+  background: black;
+  height: 100vh;
+  height: 100dvh;
+}
+/*----------------------------some stuff------------------------------*/
+
 /*==============error page================================*/
 #error-page > img {
   width: 100%;
